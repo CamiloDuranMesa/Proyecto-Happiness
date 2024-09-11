@@ -26,7 +26,7 @@ header{
     padding-right: 30px;
     font-size: 18px;
 }
-
+/* SECTION1 */
 .section1{
     display: flex;
     padding-top: 100px;
@@ -65,8 +65,12 @@ header{
     bottom: -280px;
     left: 11%;
     z-index: 1;
+    box-shadow: 10px 15px 30px black;
 }
 
+.img3{
+    display: flex;
+}
 .title_estad{
     color: #F5CB00;
     font-size: 50px;
@@ -92,7 +96,7 @@ header{
 .img_estad{
     padding-right: 50px;
 }
-
+/* SECTION2 */
 .section2{
     background-color: #F5CB00;
     margin-top: 400px;
@@ -145,6 +149,7 @@ header{
     background-color: #E6E6E6;
     width: 680px;
     padding-right: -100px;
+    box-shadow: 16px 15px 20px -20px black;
 }
 
 .title_section3{
@@ -172,6 +177,10 @@ header{
 .img_section3{
     padding-top: 50px;
     padding-left: 320px;
+}
+
+.principal_img3{
+    box-shadow: 55px 15px 20px -20px black;
 }
 
 /* SECTION4 */
@@ -206,6 +215,7 @@ header{
     margin-top: 15px;
 }
 
+/* SECTION5 */
 .section5{
     display: flex;
     justify-content: center;
@@ -414,4 +424,158 @@ hr{
 
 .redes1{
     margin-left: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .logo{
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+
+    .btn-1{
+        padding-right: 25px;
+    }
+
+    .section1{
+        flex-direction: column;
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .sec1_text{
+        text-align: center;
+        padding-left: 0px;
+        width: 470px;
+    }
+
+    .estadisticas{
+        flex-direction: column;
+        width: 300px;
+        padding: 20px;
+        align-items: center;
+        position: relative;
+  
+    }
+
+    .img_estad{
+        width: 100px;
+        padding-right: 0px;
+    }
+
+    .text_estad{
+        padding-right: 10px;
+        width: 200px;
+    }
+
+    .title_estad{
+        font-size: 40px;
+
+    }
+
+    .section2{
+    margin-top: 200px;
+    flex-direction: column;
+    }
+
+    .text_section2{
+        width: 470px;
+        padding-top: 250px;
+        padding-left: 10px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .img_sec2{
+        width: 480px;
+        right: 0%;
+        top: 10%;
+
+    }
+
+    .section3{
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .section3_1{
+        background-color: #E6E6E6;
+        width: 480px;
+        padding-right: -100px;
+        box-shadow: none;
+    }
+
+    .text_section3{
+        width: 420px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .img_section3{
+        padding-left: 110px;
+    }
+
+    .principal_img3{
+        box-shadow: none;
+    }
+
+    .text_section4{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+    }
+
+    .img_aboutus{
+        width: 480px;
+    }
+
+    .section5{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .text_section5{
+        padding-left: 30px;
+        text-align: center;
+    }
+
+    .section6{
+        flex-direction: column;
+        padding-bottom: 0px;
+    }
+
+    .text_section6{
+        width: 480px;
+        padding-right: 0px;
+        text-align: center;
+    }
+
+    .section7{
+        flex-direction: column;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    .sec-eight-div-one{
+        width: 380px;
+    }
+
+    .text_section7{
+        padding-left: 5px;
+        text-align: center;
+    }
+
+    iframe{
+        width: 480px;
+    }
+    
+    footer{
+        padding-left: 30px;
+    }
+
+    .redes{
+        gap: 80px;
+    }
+
+    
 }
